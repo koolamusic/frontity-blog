@@ -9,7 +9,7 @@ const settings = {
   },
   "packages": [
     {
-      "name": "@frontity/twentytwenty-theme",
+      "name": "koolamusic-frontity-theme",
       "state": {
         "theme": {
           "menu": [

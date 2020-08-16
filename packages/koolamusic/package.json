@@ -1,0 +1,21 @@
+{
+	"name": "koolamusic-frontity-theme",
+	"version": "1.2.1",
+	"description": "A Personal Blogging Template based on Frontity, Inspired by Maggie Appleton",
+	"keywords": [ "frontity", "frontity-theme", "koolamusic", "wordpress" ],
+	"homepage": "https://andrewmiracle.com",
+	"license": "GNU GPL 2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/koolamusic/frontity.git"
+	},
+	"bugs": {
+		"url": "https://community.frontity.org"
+	},
+	"dependencies": {
+		"@frontity/components": "^1.3.3",
+		"@frontity/html2react": "^1.3.4",
+		"frontity": "^1.9.0",
+		"react-spring": "^8.0.27"
+	}
+}
