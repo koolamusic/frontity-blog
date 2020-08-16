@@ -1,8 +1,8 @@
 import Theme from "./components";
 import image from "@frontity/html2react/processors/image";
 
-const twentyTwentyTheme = {
-  name: "@frontity/twentytwenty-theme",
+const customTheme = {
+  name: "koolamusic-frontity-theme",
   roots: {
     /**
      *  In Frontity, any package can add React components to the site.
@@ -84,4 +84,4 @@ const twentyTwentyTheme = {
   },
 };
 
-export default twentyTwentyTheme;
+export default customTheme;
