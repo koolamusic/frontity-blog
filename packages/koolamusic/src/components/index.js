@@ -20,6 +20,7 @@ import PageError from "./page-error";
 const Theme = ({ state }) => {
   // Get information about the current URL.
   const data = state.source.get(state.router.link);
+  // console.log(data.isPage)
 
   return (
     <>
@@ -50,6 +51,7 @@ const Theme = ({ state }) => {
           <Switch>
             <Loading when={data.isFetching} />
             <SearchResults when={data.isSearch} />
+            <Archive when={data.isHome} />
             <Archive when={data.isArchive} />
             <Post when={data.isPostType} />
             <PageError when={data.isError} />

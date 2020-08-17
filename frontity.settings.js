@@ -26,6 +26,10 @@ const settings = {
               "/category/travel/"
             ],
             [
+              "Android",
+              "/category/android/"
+            ],
+            [
               "Japan",
               "/tag/japan/"
             ],

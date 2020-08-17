@@ -29,11 +29,11 @@ const SearchResults = ({ state }) => {
               another try through the search form below.
             </Text>
           ) : (
-            <Text>
-              We found {total} {total === 1 ? "result" : "results"} for your
+              <Text>
+                We found {total} {total === 1 ? "result" : "results"} for your
               search.
-            </Text>
-          )}
+              </Text>
+            )}
         </IntroText>
       </ArchiveHeader>
 
@@ -42,8 +42,8 @@ const SearchResults = ({ state }) => {
           <SearchForm />
         </SearchContainer>
       ) : (
-        <Archive showExcerpt={true} showMedia={false} />
-      )}
+          <Archive showExcerpt={true} showMedia={false} />
+        )}
     </>
   );
 };
