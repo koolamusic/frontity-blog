@@ -11,6 +11,10 @@ const Archive = ({ state, showExcerpt, showMedia }) => {
   const data = state.source.get(state.router.link);
   const { primary } = state.theme.colors;
 
+  // console.log(state)
+  console.log(state.source.get("/category/technology/").items)
+
+
   // Whether the show the excerpt instead of the full content
   // If passed as prop, we'll respect that. Else, we'll use the theme settings
   const _showExcerpt = showExcerpt || !state.theme.showAllContentOnArchive;

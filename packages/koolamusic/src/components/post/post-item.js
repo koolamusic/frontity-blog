@@ -127,6 +127,8 @@ export const SectionContainer = styled.div`
 
 export const PostTitle = styled.h1`
   margin: 0;
+  color: #233044;
+  text-transform: capitalize;
   @media (min-width: 700px) {
     font-size: 6.4rem !important;
   }

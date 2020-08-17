@@ -6,6 +6,7 @@ import globalStyles from "./styles/global-styles";
 import FontFaces from "./styles/font-faces";
 import Header from "./header";
 import Archive from "./archive";
+import Home from "./home";
 import Loading from "./loading";
 import Post from "./post";
 import SearchResults from "./search/search-results";
@@ -51,7 +52,7 @@ const Theme = ({ state }) => {
           <Switch>
             <Loading when={data.isFetching} />
             <SearchResults when={data.isSearch} />
-            <Archive when={data.isHome} />
+            <Home when={data.isHome} showExcerpt={true} />
             <Archive when={data.isArchive} />
             <Post when={data.isPostType} />
             <PageError when={data.isError} />

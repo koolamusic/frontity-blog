@@ -18,14 +18,14 @@ const customTheme = {
     theme: {
       colors: {
         gray: {
-          base: "#6D6D6D",
+          base: "#334259",
           light: "#DCD7CA",
           lighter: "#F5EFE0",
         },
         primary: "#cd2653",
         headerBg: "#ffffff",
         footerBg: "#ffffff",
-        bodyBg: "#f5efe0",
+        bodyBg: "#ffffff",
       },
       // Whether to show the search button in page header
       showSearchInHeader: true,
