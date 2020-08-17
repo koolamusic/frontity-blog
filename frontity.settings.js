@@ -2,9 +2,9 @@ const settings = {
   "name": "andrew-miracle",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://andrewmiracle.com",
+      "title": "Andrew",
+      "description": "The Blog of Andrew Miracle"
     }
   },
   "packages": [
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.org/wp-json"
+          "api": "https://wp.andrewmiracle.com/wp-json"
         }
       }
     },
