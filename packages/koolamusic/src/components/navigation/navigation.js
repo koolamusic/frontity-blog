@@ -18,6 +18,7 @@ const Navigation = ({ state }) => (
             <MenuItem key={name}>
               {/* If link url is the current page, add `aria-current` for a11y */}
               <MenuLink
+                color={state.theme.colors.title}
                 link={link}
                 aria-current={isCurrentPage ? "page" : undefined}
               >
@@ -28,7 +29,7 @@ const Navigation = ({ state }) => (
         })}
       </Menu>
     </MenuNav>
-  </NavWrapper>
+  </NavWrapper >
 );
 
 export default connect(Navigation);
@@ -48,8 +49,8 @@ const MenuNav = styled.nav`
 
 const Menu = styled.ul`
   display: flex;
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 400;
   letter-spacing: -0.0277em;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -79,9 +80,16 @@ const MenuLink = styled(Link)`
   display: block;
   line-height: 1.2;
   text-decoration: none;
+  font-weight: 400;
+  color: ${props => props.color};
+  opacity: 0.7;
 
   &:hover,
   &[aria-current="page"] {
     text-decoration: underline;
+    opacity: 1;
+  }
+  &[aria-current="page"] {
+    text-decoration: none;
   }
 `;

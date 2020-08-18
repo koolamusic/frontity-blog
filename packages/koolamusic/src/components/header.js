@@ -7,9 +7,10 @@ import SearchModal from "./search/search-modal";
 import MobileSearchButton from "./mobile/search-button";
 import MobileMenuButton from "./mobile/menu-button";
 import MobileMenuModal from "./mobile/menu-modal";
+import { LogoIcon } from '../components/icons'
 
 const Header = ({ state }) => {
-  const { title, description } = state.frontity;
+  // const { title, description } = state.frontity;
   const { headerBg } = state.theme.colors;
 
   return (
@@ -22,9 +23,8 @@ const Header = ({ state }) => {
           {/* Heading and Description of the site */}
           <TitleGroup>
             <SiteTitle>
-              <StyledLink link="/">{title}</StyledLink>
+              <StyledLink link="/"><LogoIcon /></StyledLink>
             </SiteTitle>
-            <SiteDescription>{description}</SiteDescription>
           </TitleGroup>
 
           {/* Mobile menu button and modal */}
@@ -79,13 +79,14 @@ const PageHeader = styled.header`
   z-index: 1;
   background: ${(props) => props.bg};
   position: relative;
+  border-bottom: 1px solid #dedfdf;
 `;
 
 const HeaderInner = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 2.8rem 0;
+  padding: 2rem 0;
   max-width: 168rem;
   z-index: 100;
   margin-left: auto;
@@ -111,32 +112,16 @@ const SiteTitle = styled.h1`
   }
 `;
 
-const SiteDescription = styled.div`
-  margin: 0;
-  margin-top: 1rem;
-  color: #6d6d6d;
-  font-size: 1.8rem;
-  font-weight: 500;
-  display: none;
-  letter-spacing: -0.0311em;
-  transition: all 0.15s linear;
-
-  @media (min-width: 1000px) {
-    margin: 1rem 0 0 2.4rem;
-  }
-
-  @media (min-width: 700px) {
-    display: block;
-  }
-`;
-
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: inherit;
+  width: 50px;
   display: block;
+  opacity: 0.7;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    opacity: 0.95;
   }
 `;
 

@@ -43,8 +43,8 @@ export const BaseToggle = styled.button`
     top: auto;
     width: auto;
     ${(props) =>
-      props.isMobile &&
-      css`
+    props.isMobile &&
+    css`
         display: none !important;
       `}
   }
@@ -112,43 +112,47 @@ export const LabeledIcon = ({ icon: Icon, label }) => (
 export const ToggleInner = styled.span`
   display: flex;
   justify-content: center;
-  height: 2.3rem;
+  height: 2rem;
   position: relative;
-  bottom: 0.5rem;
+  bottom: 0.75rem;
 
   @media (min-width: 1000px) {
     position: static;
   }
 
   svg {
-    height: 2.5rem;
+    height: 2.2rem;
     max-width: 2.3rem;
-    width: 2.3rem;
+    width: 2rem;
     display: block;
     position: relative;
     z-index: 1;
+    fill: #233044;
+    opacity: 0.9;
   }
 `;
 
 export const ToggleText = styled.span`
   color: #6d6d6d;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 600;
   position: absolute;
+  color: #233044;
+  opacity: 0.9;
   top: calc(100% + 0.5rem);
   width: auto;
   white-space: nowrap;
   word-break: break-all;
 
   @media (min-width: 700px) {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
   }
 
   @media (min-width: 1000px) {
     left: 0;
     right: 0;
     text-align: center;
-    top: calc(100% - 0.3rem);
+    top: calc(100% - 0.7rem);
     width: auto;
   }
 `;
@@ -166,10 +170,11 @@ export const ToggleWrapper = styled.div`
       background: #dedfdf;
       content: "";
       display: block;
-      height: 2.7rem;
+      height: 92px;
       position: absolute;
-      left: 0;
-      top: calc(50% - 1.35rem);
+      left: -5px;  /* Hack for the Search Border */
+      top: -25px;
+      /* top: calc(50% - 1.35rem); */
       width: 0.1rem;
     }
 

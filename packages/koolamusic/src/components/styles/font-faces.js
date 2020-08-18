@@ -14,6 +14,7 @@ import InterSemiBoldLatin from "../../fonts/inter/Inter-SemiBold-LATIN.woff2";
 import Epilogue from '../../fonts/custom/Epilogue-Medium.ttf'
 import GTWalsheim from '../../fonts/custom/GTWalsheim-Medium.ttf'
 import Sora from '../../fonts/custom/Sora-SemiBold.ttf'
+import SoraRegular from '../../fonts/custom/Sora-Regular.ttf'
 
 // Paragraph
 import FreightBook from '../../fonts/custom/FreightTextW01-Book.ttf'
@@ -27,7 +28,7 @@ const fonts = {
   "us-ascii": [InterMediumUS, InterSemiBoldUS, InterBoldUS],
   latin: [InterMediumLatin, InterSemiBoldLatin, InterBoldLatin],
   all: [InterMedium, InterSemiBold, InterBold],
-  title: [Epilogue, GTWalsheim, Sora],
+  title: [Epilogue, GTWalsheim, Sora, SoraRegular],
   subtitle: [BarlowRegular, PTSansRegular],
   paragraph: [FreightBook, CrimsonProRegular],
 };
@@ -65,6 +66,13 @@ const FontFace = ({ state }) => {
           font-weight: 700;
           font-display: "swap";
           src: url(${font[2]}) format("woff2");
+        }
+        @font-face {
+          font-family: "Sora";
+          font-style: normal;
+          font-weight: 400;
+          font-display: "swap";
+          src: url(${font[3]}) format("woff2");
         }
       `}
     />
