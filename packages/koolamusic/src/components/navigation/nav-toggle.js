@@ -27,6 +27,7 @@ export const BaseToggle = styled.button`
 
   &:hover {
     text-decoration: underline;
+    opacity: 1;
   }
 
   @media (min-width: 1220px) {
@@ -115,6 +116,11 @@ export const ToggleInner = styled.span`
   height: 2rem;
   position: relative;
   bottom: 0.75rem;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
+  }
 
   @media (min-width: 1000px) {
     position: static;
@@ -128,7 +134,8 @@ export const ToggleInner = styled.span`
     position: relative;
     z-index: 1;
     fill: #233044;
-    opacity: 0.9;
+
+
   }
 `;
 
@@ -138,11 +145,11 @@ export const ToggleText = styled.span`
   font-weight: 600;
   position: absolute;
   color: #233044;
-  opacity: 0.9;
   top: calc(100% + 0.5rem);
   width: auto;
   white-space: nowrap;
   word-break: break-all;
+
 
   @media (min-width: 700px) {
     font-size: 1.05rem;

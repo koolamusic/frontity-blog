@@ -74,6 +74,12 @@ const documentSetup = (colors) => css`
     letter-spacing: -0.015em;
     text-align: left;
   }
+  p {
+    ${'' /* font-family: "Crimson Pro", Libra serif, Droid Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */}
+    font-family: "FreightText W01 Book", Libra serif, Droid Serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: ${colors.gray.base};
+  }
+
 
   *,
   *::before,
