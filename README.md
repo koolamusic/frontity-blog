@@ -72,3 +72,4 @@ Upload your `static` folder to a CDN and your `server.js` file to a serverless s
 
 - Create Custom Page Routes  (<https://community.frontity.org/t/how-to-create-custom-pages/435/3>)
 - Frontity WP-SOURCE Params & Page Limit [Page Params](https://docs.frontity.org/api-reference-1/wordpress-source#state-source-params)
+- Convert Case Online (<https://convertcase.net/>)

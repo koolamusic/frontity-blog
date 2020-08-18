@@ -34,7 +34,7 @@ export const BaseToggle = styled.button`
   }
 
   @media (min-width: 1000px) {
-    height: 4.4rem;
+    height: 4.1rem;
     padding: 0 3rem;
     position: relative;
     bottom: auto;

@@ -19,7 +19,7 @@ const SearchButton = ({ state, actions }) => {
           aria-expanded={isSearchModalOpen}
           onClick={openSearchModal}
           aria-label="Click to open search bar..."
-          style={{ bottom: "0.5rem" }}
+          style={{ bottom: "0.7rem" }}
         >
           <LabeledIcon icon={SearchIcon} label="Search" />
         </BaseToggle>
