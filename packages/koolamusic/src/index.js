@@ -22,6 +22,7 @@ const customTheme = {
           light: "#DCD7CA",
           lighter: "#F5EFE0",
         },
+        title: "#233044",
         primary: "#cd2653",
         headerBg: "#ffffff",
         footerBg: "#ffffff",
