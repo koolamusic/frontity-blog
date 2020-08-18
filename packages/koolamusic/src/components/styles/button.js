@@ -2,6 +2,7 @@ import { styled } from "frontity";
 
 const Button = styled.button`
   background-color: ${(props) => props.bg};
+  font-family: -apple-system, BlinkMacSystemFont, 'Sora', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.7rem;
   border: none;
   border-radius: 0;

@@ -58,7 +58,7 @@ const SiteFooter = styled.footer`
   border-width: 0;
   padding: 3rem 0;
   background-color: ${(props) => props.bg};
-  color: #000000;
+  color: #334259;
 
   @media (min-width: 700px) {
     margin-top: 8rem;
@@ -81,6 +81,7 @@ const Credits = styled.div`
 const Copyright = styled.p`
   font-weight: 600;
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Sora', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   @media (min-width: 700px) {
     font-weight: 700;
@@ -89,6 +90,7 @@ const Copyright = styled.p`
 
 const PoweredBy = styled.p`
   color: #6d6d6d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Sora', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: none;
   margin: 0 0 0 2.4rem;
 

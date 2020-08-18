@@ -187,6 +187,7 @@ const SearchInput = styled.input`
   font-size: 2rem;
   letter-spacing: -0.0277em;
   height: 8.4rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Sora', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0 0 0 -2rem;
   max-width: calc(100% + 2rem);
   padding: 0 0 0 2rem;

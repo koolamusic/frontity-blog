@@ -9,6 +9,7 @@ const Input = styled.input`
   box-shadow: none;
   display: block;
   font-size: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Sora', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   letter-spacing: -0.015em;
   max-width: 100%;
   padding: 1.5rem 1.8rem;

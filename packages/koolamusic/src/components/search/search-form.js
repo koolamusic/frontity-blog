@@ -56,6 +56,7 @@ export default connect(SearchForm);
 
 const Form = styled.form`
   align-items: stretch;
+  font-family: 'Sora', Roboto, Ubuntu,  'Helvetica Neue', sans-serif;
   display: flex;
   flex-wrap: nowrap;
   margin: 0 0 -0.8rem -0.8rem;
@@ -73,11 +74,17 @@ const Label = styled.label`
 
 const SearchInput = styled(Input)`
   margin: 0 0 0.8rem 0.8rem;
+  font-family: 'Sora', Roboto, Ubuntu,  'Helvetica Neue', sans-serif;
+
+  &::placeholder {
+  font-family: 'Sora', Roboto, Ubuntu,  'Helvetica Neue', sans-serif;
+  }
 `;
 
 const SearchButton = styled(Button)`
   flex-shrink: 0;
   opacity: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Sora', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: opacity 0.15s linear;
   margin: 0 0 0.8rem 0.8rem;
 `;
