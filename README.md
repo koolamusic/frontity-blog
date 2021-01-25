@@ -1,5 +1,7 @@
 # andrew-miracle
 
+Abritrary BG Color https://medium.com/@pppped/compute-an-arbitrary-color-for-user-avatar-starting-from-his-username-with-javascript-cd0675943b66
+
 This project was bootstrapped with [Frontity](https://frontity.org/).
 
 #### Table of Contents
